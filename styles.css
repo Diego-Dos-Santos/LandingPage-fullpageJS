@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'SF'; /*a name to be used later*/
+    src: url('./fonts/SF-UI-Display-Regular.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'SF Ultra'; /*a name to be used later*/
+    src: url('./fonts/SF-UI-Display-Ultralight.otf'); /*URL to font*/
+}
+
+h1{
+    font-family: 'SF';
+    font-size: 5em;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'SF Ultra';
+    text-align: center;
+    color: black;
+}
+
+.s1 {
+    background: url('./images/BlackBeach.jpg');
+    background-size: cover;
+}
+
+.s2 {
+    background: url('./images/MountainFog.jpg');
+    background-size: cover;
+}
+
+.s3 {
+    background: url('./images/SeaStoneLake.jpg');
+    background-size: cover;
+}
+
+.s4 {
+    background: url('./images/StreetCar.jpg');
+    background-size: cover;
+}
+
+.s1 h1{
+    color: black;
+}
+
+.s3 h1{
+    color: white;
+}
+
+.s4 h1 {
+    color: white;
+}
+
+span {
+    background: white !important;
+}
+
+.slide1 {
+    
+}
